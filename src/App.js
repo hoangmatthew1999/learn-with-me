@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Home} from './Home';
 import {StudyMaterial, StudyMaterials} from './StudyMaterial';
 import {Courses} from './Courses';
+import {Profile} from './profile';
 import {Link, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         <Route path = "/home" element = {<Home/>} />
         <Route path = "/study-materials" element = {<StudyMaterials/>} />
         <Route path = "/courses" element = {<Courses/>} />
-        <Route path = "/courses/:courseName" element = {<Courses/>} />
+        <Route path = "/courses/:courseName" element = {<Profile/>} />
 
       </Routes>
 
