@@ -23,7 +23,7 @@ export function Courses() {
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>{cardData.class}</Card.Title>
-        <Button variant="primary" href = {"/courses/" + cardData.class}>Go somewhere</Button>
+        <Button variant="primary" href = {"/courses/" + cardData.class}>Go to Class Page </Button>
       </Card.Body>
     </Card>
         </Col>
