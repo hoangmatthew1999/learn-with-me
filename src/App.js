@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginForm from './login';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,6 +14,7 @@ import {Link, Route, Routes} from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Learn With Us</Navbar.Brand>
@@ -23,8 +25,8 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-
-
+      <LoginForm/>
+      
       <Routes>
         <Route path = "/home" element = {<Home/>} />
         <Route path = "/study-materials" element = {<StudyMaterials/>} />
@@ -32,7 +34,7 @@ function App() {
         <Route path = "/courses/:courseName" element = {<Profile/>} />
 
       </Routes>
-
+      
     </div>
 
   );
