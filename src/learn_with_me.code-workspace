@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "project1_",
+			"path": "../../../Downloads/of_v0.11.2_osx_release/apps/myApps/project1_"
+		},
+		{
+			"name": "openFrameworks",
+			"path": "../../../Downloads/of_v0.11.2_osx_release/libs/openFrameworks"
+		},
+		{
+			"name": "addons",
+			"path": "../../../Downloads/of_v0.11.2_osx_release/addons"
+		}
+	],
+	"settings": {}
+}

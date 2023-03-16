@@ -10,6 +10,7 @@ import {StudyMaterial, StudyMaterials} from './StudyMaterial';
 import {Courses} from './Courses';
 import {Profile} from './profile';
 import {Link, Route, Routes} from "react-router-dom";
+import { StudyMaterialsProfile } from './StudyMaterialsProfiles';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <Routes>
         <Route path = "/home" element = {<Home/>} />
         <Route path = "/study-materials" element = {<StudyMaterials/>} />
+        <Route path = "/study-materials/:courseName" element = {<StudyMaterialsProfile/>} />
+
         <Route path = "/courses" element = {<Courses/>} />
         <Route path = "/courses/:courseName" element = {<Profile/>} />
 
