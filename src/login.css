@@ -1,0 +1,122 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Arial";
+}
+
+
+
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156,156,156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.alt-login{
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.alt-login div{
+    width: 20%;
+    height: 70%;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+input{
+    border: none;
+    background-color: rgb(176, 169, 169);
+    height: 4em;
+    width: 40%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+input:focus {
+    outline-color: rgb(32,177, 255);
+
+}
+
+.login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32,177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.25);}
+
+
+.Sign-Up {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32,177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.Sign-Up:hover { transform: scale(1.25);}
+
+.text{
+    position: absolute;
+    bottom: -2em;
+   
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    transform: scale(1);
+    transform: 1.5s;
+
+
+}
